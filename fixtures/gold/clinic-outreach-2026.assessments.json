@@ -1,0 +1,63 @@
+{
+  "assessor": "panel-judge implementer (human review)",
+  "assessor_role": "human",
+  "assessments": [
+    {
+      "panelist_id": "clinic-nurse-a",
+      "scores": {
+        "evidence_strength": 3,
+        "capital_efficiency": 3,
+        "regulatory_runway": 3,
+        "differentiation": 3,
+        "risk_mitigation": 3
+      },
+      "reasons": {
+        "evidence_strength": "Assessor reason for evidence_strength, citing the answer text.",
+        "capital_efficiency": "Assessor reason for capital_efficiency, citing the answer text.",
+        "regulatory_runway": "Assessor reason for regulatory_runway, citing the answer text.",
+        "differentiation": "Assessor reason for differentiation, citing the answer text.",
+        "risk_mitigation": "Assessor reason for risk_mitigation, citing the answer text."
+      },
+      "strengths": [],
+      "weaknesses": []
+    },
+    {
+      "panelist_id": "clinic-nurse-b",
+      "scores": {
+        "evidence_strength": 2,
+        "capital_efficiency": 4,
+        "regulatory_runway": 2,
+        "differentiation": 3,
+        "risk_mitigation": 3
+      },
+      "reasons": {
+        "evidence_strength": "Assessor reason for evidence_strength, citing the answer text.",
+        "capital_efficiency": "Assessor reason for capital_efficiency, citing the answer text.",
+        "regulatory_runway": "Assessor reason for regulatory_runway, citing the answer text.",
+        "differentiation": "Assessor reason for differentiation, citing the answer text.",
+        "risk_mitigation": "Assessor reason for risk_mitigation, citing the answer text."
+      },
+      "strengths": [],
+      "weaknesses": []
+    },
+    {
+      "panelist_id": "clinic-nurse-c",
+      "scores": {
+        "evidence_strength": 3,
+        "capital_efficiency": 3,
+        "regulatory_runway": 3,
+        "differentiation": 2,
+        "risk_mitigation": 2
+      },
+      "reasons": {
+        "evidence_strength": "Assessor reason for evidence_strength, citing the answer text.",
+        "capital_efficiency": "Assessor reason for capital_efficiency, citing the answer text.",
+        "regulatory_runway": "Assessor reason for regulatory_runway, citing the answer text.",
+        "differentiation": "Assessor reason for differentiation, citing the answer text.",
+        "risk_mitigation": "Assessor reason for risk_mitigation, citing the answer text."
+      },
+      "strengths": [],
+      "weaknesses": []
+    }
+  ]
+}

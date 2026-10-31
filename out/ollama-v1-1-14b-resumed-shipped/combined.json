@@ -1,0 +1,165 @@
+{
+  "assessor": "qwen3:14b",
+  "assessor_role": "judge-model",
+  "assessor_model": "qwen3:14b",
+  "assessor_provider": "ollama",
+  "prompt_version": "ollama-judge-v2",
+  "prompt_sha256": "b9d91bb8b9af62fed3b8b06af468771bbf1a742a743946bea773c80c83ecad99",
+  "temperature": 0,
+  "assessments": [
+    {
+      "panelist_id": "claude-sonnet-5-5",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific, checkable evidence is provided (e.g., named precedents, market data, or mechanisms). The survival odds claim (1\u20133% vs 20\u201335%) is unsupported and lacks citation.",
+        "efficiency": "No explicit mention of capital/resource efficiency strategies (e.g., build-to-order, bought-in components, or low upfront costs). The focus on 'costs disciplined' is vague and not actionable.",
+        "regulatory": "No named legal/regulatory pathway is discussed (e.g., emissions standards, licensing, or compliance strategies). The answer assumes regulatory compliance without addressing it.",
+        "differentiation": "The differentiation is vague ('driving character, sound, exclusivity') and not clearly tied to buyer willingness to pay. No unique value proposition is concretely defined.",
+        "risk_mitigation": "The 'biggest risk' (mass-market entry failure) is not explicitly named or addressed. No concrete mitigation strategies (e.g., pivots, deposits, or second markets) are proposed."
+      }
+    },
+    {
+      "panelist_id": "gpt-6-1-sol",
+      "scores": {
+        "evidence": 1,
+        "efficiency": 4,
+        "regulatory": 0,
+        "differentiation": 3,
+        "risk_mitigation": 1
+      },
+      "reasons": {
+        "evidence": "Mentions a niche strategy and pricing but lacks specific precedents, data, or mechanisms to validate the approach.",
+        "efficiency": "Build-to-order, low-volume production, and use of existing engines reduce upfront capital and inventory risks effectively.",
+        "regulatory": "Does not name any specific legal pathway or regulatory compliance strategy for launching a new car company.",
+        "differentiation": "Targets a niche of manual-driving enthusiasts, which is distinct but not fully explained as a compelling value proposition.",
+        "risk_mitigation": "Identifies the risk of brand unfamiliarity but does not propose concrete solutions (e.g., partnerships, marketing, or heritage-building)."
+      }
+    },
+    {
+      "panelist_id": "gemini-3-8-flash",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific, checkable evidence (e.g., named precedents, numbers, or market data) is provided to support the viability of the strategy or the existence of the named regulatory frameworks.",
+        "efficiency": "While the strategy avoids proprietary development, it does not explicitly mention build-to-order, deposits, or other efficiency mechanisms, leaving capital/resource efficiency unproven.",
+        "regulatory": "The named regulatory routes (FAST Act, EU Small Series) are mentioned but not confirmed as currently available, legally viable, or with a plausible life expectancy.",
+        "differentiation": "The niche (collectors/enthusiasts) is mentioned, but no concrete explanation is given for why buyers would pay a premium for this product over existing alternatives.",
+        "risk_mitigation": "The risk of regulatory closure is named, but no concrete response (e.g., pivot, deposit model) is provided to address it."
+      }
+    },
+    {
+      "panelist_id": "grok-4-7",
+      "scores": {
+        "evidence": 2,
+        "efficiency": 3,
+        "regulatory": 1,
+        "differentiation": 2,
+        "risk_mitigation": 2
+      },
+      "reasons": {
+        "evidence": "Mentions specific markets (US interior, Australia) and mechanisms (certified powertrains, deposits), but lacks concrete data or named precedents.",
+        "efficiency": "Uses bought-in components, low-volume production, and deposits to limit capital risk, but lacks explicit mention of build-to-order or minimal upfront costs.",
+        "regulatory": "Implies reliance on existing petrol infrastructure but does not name a specific legal route or regulatory exemption.",
+        "differentiation": "Focuses on utility and repairability, which could differentiate from luxury or performance brands, but is not uniquely distinctive enough.",
+        "risk_mitigation": "Names two risks (OEM dependence, regulatory changes) but does not provide concrete responses (e.g., diversifying suppliers, lobbying for exemptions)."
+      }
+    },
+    {
+      "panelist_id": "kimi-k3",
+      "scores": {
+        "evidence": 3,
+        "efficiency": 4,
+        "regulatory": 0,
+        "differentiation": 3,
+        "risk_mitigation": 1
+      },
+      "reasons": {
+        "evidence": "Provides specific numbers (manual market decline from 69 to 24-43) and a named precedent (Gordon Murray T.50), though the context of the numbers is unclear and the T.50 example is niche.",
+        "efficiency": "Uses bought-in components, low-volume production, and customer deposits, minimizing upfront capital and resource needs.",
+        "regulatory": "Mentions regulation as a risk but does not name a specific legal route or current regulatory framework that would allow the business to operate.",
+        "differentiation": "Focuses on manual, lightweight, driver-centric cars, which is distinct from mainstream trends, though the example (T.50) may not fully align with the target market.",
+        "risk_mitigation": "Identifies regulation as the biggest risk but does not propose a concrete response or mitigation strategy beyond acknowledging it."
+      }
+    },
+    {
+      "panelist_id": "glm-5-3",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific, checkable evidence (e.g., market size, sales data, or named precedents with measurable success) is provided to support the strategy's viability.",
+        "efficiency": "While 'bought-in engines' are mentioned, the answer lacks explicit details on capital efficiency (e.g., build-to-order, deposits, or low-volume production mechanisms).",
+        "regulatory": "No named, currently available legal route to market is identified, and the regulatory risk is only mentioned as a threat, not a mitigated pathway.",
+        "differentiation": "The strategy relies on vague claims about 'craftsmanship' and 'exclusivity' without concrete buyer behavior data or unique value propositions that incumbents cannot replicate.",
+        "risk_mitigation": "Risks (regulatory cliff, supplier dependence) are named but not addressed with concrete responses (e.g., pivots, diversification, or contractual safeguards)."
+      }
+    },
+    {
+      "panelist_id": "nemotron-3-5-super-vl",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific data, market trends, or precedents are cited to support claims about demand in target regions or the collectibility of the product.",
+        "efficiency": "No mention of cost-saving measures (e.g., using existing components, low-volume production, or deposits) to suggest capital/resource efficiency.",
+        "regulatory": "No named legal pathway or timeline for regulatory compliance is provided, despite acknowledging regulatory risks.",
+        "differentiation": "The strategy relies on vague emotional appeal rather than concrete, actionable differentiation from competitors (e.g., no unique technology, pricing, or customer experience details).",
+        "risk_mitigation": "The primary risk (regulatory extinction) is identified but no mitigation strategy (e.g., pivot plan, diversification, or legal safeguards) is proposed."
+      }
+    },
+    {
+      "panelist_id": "ollama-qwen3-14b",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific precedents, numbers, or mechanisms are provided to support the viability of the luxury niche strategy.",
+        "efficiency": "The strategy implies high capital intensity (e.g., bespoke design, brand control) without mentioning low-cost components, deposits, or build-to-order models.",
+        "regulatory": "No legal or regulatory pathway is named (e.g., emissions standards, safety certifications) that would allow a petrol-only car company to operate in 2026.",
+        "differentiation": "The luxury niche is a common idea, not uniquely distinctive; many brands already compete in this space with similar value propositions.",
+        "risk_mitigation": "Risks are named (electric performance cars, sustainability pressure) but no concrete responses (e.g., pivots, deposits, secondary markets) are proposed to address them."
+      }
+    },
+    {
+      "panelist_id": "ollama-qwen3-8b",
+      "scores": {
+        "evidence": 2,
+        "efficiency": 1,
+        "regulatory": 1,
+        "differentiation": 2,
+        "risk_mitigation": 1
+      },
+      "reasons": {
+        "evidence": "Mentions regions (Middle East, Asia) and 2035 EU/US bans, but lacks specific data (e.g., market size, existing precedents, or infrastructure gaps).",
+        "efficiency": "Suggests low volumes and remote support, but doesn't address capital efficiency (e.g., using existing components, build-to-order models).",
+        "regulatory": "References 2035 bans but doesn't name a current legal route to market or confirm regulatory compliance mechanisms.",
+        "differentiation": "Focus on 'lightweight performance sports cars' is somewhat distinct but not uniquely compelling (many sports car manufacturers exist).",
+        "risk_mitigation": "Identifies timing as a risk but provides no concrete mitigation (e.g., pivot strategy, geographic diversification)."
+      }
+    }
+  ],
+  "panel_sha256": "7c07414dd4123234c5499fcd3103cbfa395f7588febf0f1406e930d6c10d098a"
+}

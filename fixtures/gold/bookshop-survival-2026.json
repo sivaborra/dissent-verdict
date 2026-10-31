@@ -1,0 +1,42 @@
+{
+  "panel_id": "bookshop-survival-2026",
+  "question": "An independent bookshop losing footfall: what is the best option, an events programme, an online store, or converting to a cafe-bookshop?",
+  "panelists": [
+    {
+      "id": "bookseller-a",
+      "model": "Events advocate",
+      "source": "human",
+      "answer": "Run a weekly events programme: author talks, reading groups, and children's story hours, charging 5 per ticket. Events bring 50 people through the door on a quiet evening and sell books on the night, but they need constant programming effort and a single cancelled author leaves an empty room. The biggest risk is organiser burnout, with no second person trained to run the programme.",
+      "strategy_label": "events"
+    },
+    {
+      "id": "bookseller-b",
+      "model": "Online advocate",
+      "source": "human",
+      "answer": "Build an online store selling signed editions and staff picks, shipping 100 orders a week at an average of 20 per order. The store reaches buyers far beyond the street and needs no extra premises, but it competes head-on with large online retailers on price and delivery speed, and the shop has no named advantage those rivals cannot copy. The biggest risk is price competition, with no distinctive offer to defend margin.",
+      "strategy_label": "online"
+    },
+    {
+      "id": "bookseller-c",
+      "model": "Cafe-bookshop advocate",
+      "source": "human",
+      "answer": "Convert half the shop floor into a cafe with 20 seats, selling coffee and cake alongside books. Visitors who come for coffee browse the shelves, dwell time rises, and the cafe covers the rent that book sales alone no longer cover. A similar conversion in a nearby town reports cafe revenue covering 60 percent of rent within a year. The biggest risk is the cafe distracting from bookselling, answered by keeping the events corner and staff picks at the front of the shop.",
+      "strategy_label": "cafe-bookshop"
+    },
+    {
+      "id": "bookseller-d",
+      "model": "Cafe-bookshop second advocate",
+      "source": "human",
+      "answer": "Convert to a cafe-bookshop with a focus on morning trade: open at 7 for commuters, serve breakfast, and keep books as the afternoon draw. Morning coffee brings steady daily revenue, and the same 20 seats turn over twice before noon. The risk is early staffing costs, answered by starting with the existing two staff on a rota and capping the menu until demand is proven.",
+      "strategy_label": "cafe-bookshop"
+    },
+    {
+      "id": "bookseller-e",
+      "model": "Cafe-bookshop third advocate",
+      "source": "human",
+      "answer": "Make the cafe-bookshop the evening destination as well: late opening twice a week with coffee, cake, and quiet reading tables. The shop becomes a place people pay to spend time in, which no online rival can copy, and evening trade adds revenue without extra rent. The biggest risk is late-night staffing, answered by capping late nights at two per week and closing early if takings fall short for a month.",
+      "strategy_label": "cafe-bookshop",
+      "answer_kind": "full"
+    }
+  ]
+}

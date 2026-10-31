@@ -1,0 +1,41 @@
+{
+  "panel_id": "cafe-expansion-2026",
+  "question": "A neighbourhood cafe with a loyal base wants a second revenue stream: what is the best option, a second site, a food truck, or wholesale baking?",
+  "panelists": [
+    {
+      "id": "cafe-owner-a",
+      "model": "Second-site advocate",
+      "source": "human",
+      "answer": "Open a second cafe across town in a busy shopping street. The fit-out costs about 60000 in local currency, rent is 2000 per month, and the site needs three staff before it serves its first customer. The loyal base proves demand, but every cost arrives before any revenue, and a slow first six months would drain the original cafe's reserves. The biggest risk is fixed costs with no fallback if the new street underperforms.",
+      "strategy_label": "second-site"
+    },
+    {
+      "id": "cafe-owner-b",
+      "model": "Food-truck advocate",
+      "source": "human",
+      "answer": "Buy a converted food truck for 35000 and sell coffee and pastries at markets and festivals in the United Kingdom. Build stock to confirmed orders for each event, take deposits for private bookings, and keep the truck moving to where demand already is. The truck costs a fraction of a second site, needs no rent, and can be parked if a season is weak. The biggest risk is weather and event cancellations, answered by the deposit model and by returning to the home cafe's pitch.",
+      "strategy_label": "food-truck"
+    },
+    {
+      "id": "cafe-owner-c",
+      "model": "Food-truck seasonal advocate",
+      "source": "human",
+      "answer": "Take the same food-truck idea to Australia for the summer festival season, chasing large outdoor crowds rather than local markets. The truck still costs 35000 and still avoids rent, but the plan depends on festival organisers and on shipping the truck, and there is no home pitch to fall back on if bookings fail. The biggest risk is distance: a bad season abroad leaves costs with no local fallback.",
+      "strategy_label": "food-truck"
+    },
+    {
+      "id": "cafe-owner-d",
+      "model": "Wholesale advocate",
+      "source": "human",
+      "answer": "Bake wholesale for local shops: 200 loaves a day at 2 per loaf, using the existing ovens outside cafe hours. No new premises and no new staff are needed, and shops place repeat orders, so revenue is steady. The margin per loaf is thin, the shops control the customer relationship, and a lost contract removes a large share of volume at once. The biggest risk is dependence on two or three buyers, with no direct customer fallback.",
+      "strategy_label": "wholesale"
+    },
+    {
+      "id": "cafe-owner-e",
+      "model": "Wholesale second advocate",
+      "source": "human",
+      "answer": "Expand wholesale further by supplying pastries as well as bread to the same shops, lifting daily output to 300 items. The ovens already exist, so upfront cost is low, but the cafe's own customers may face shorter opening hours while wholesale fills the ovens, and the same buyer dependence remains. The biggest risk is the same as wholesale generally: a buyer leaving removes volume faster than new buyers can be found.",
+      "strategy_label": "wholesale"
+    }
+  ]
+}

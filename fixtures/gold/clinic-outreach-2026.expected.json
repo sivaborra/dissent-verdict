@@ -1,0 +1,16 @@
+{
+  "panel_id": "clinic-outreach-2026",
+  "panel_sha256": "2810071d91ca68c21ba07cf5d36a3828041e16f82011567b0468e22cfa511868",
+  "expected_recommended_strategy_label": null,
+  "expected_leading_strategy_label": "mobile-clinic",
+  "expected_consensus": "no-consensus",
+  "expected_dissent_panelist_ids": [
+    "clinic-nurse-b",
+    "clinic-nurse-c"
+  ],
+  "rationale": "No option leads clearly: the mobile clinic has the only precedent with numbers (40 percent fewer missed appointments), but its staffing cost and two-day cap limit it, telehealth excludes the least connected patients, and health workers scale too slowly. The margin between the options is small, so no recommendation is forced.",
+  "answer_kind_note": "summaries",
+  "human_judge": "panel-judge implementer reasoned expectation for the v1.0 gate (NOT an independent external human judge; see docs/EVAL-v1.0.md)",
+  "judged_date": "2026-10-30",
+  "amendments": []
+}

@@ -1,0 +1,165 @@
+{
+  "assessor": "qwen3:8b",
+  "assessor_role": "judge-model",
+  "assessor_model": "qwen3:8b",
+  "assessor_provider": "ollama",
+  "prompt_version": "ollama-judge-v2",
+  "prompt_sha256": "b9d91bb8b9af62fed3b8b06af468771bbf1a742a743946bea773c80c83ecad99",
+  "temperature": 0,
+  "assessments": [
+    {
+      "panelist_id": "claude-sonnet-5-5",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific precedents, studies, or named market data (e.g., no cited examples of successful boutique carmakers or exact survival odds statistics).",
+        "efficiency": "No mention of capital requirements, build-to-order models, deposits, or component sourcing strategies to demonstrate resource efficiency.",
+        "regulatory": "No named legal pathways (e.g., EV tariffs, import regulations, or market entry licenses) or regulatory timelines for target regions.",
+        "differentiation": "Vague claims about 'emotional distinctiveness' without concrete features (e.g., patented technology, unique design elements) or pricing justification.",
+        "risk_mitigation": "No named risks (e.g., fuel cost volatility, supply chain disruptions) or concrete responses (e.g., deposit models, pivot strategies) beyond hybrid-readiness speculation."
+      }
+    },
+    {
+      "panelist_id": "gpt-6-1-sol",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific precedents, market sizes, or named competitors cited to support the niche claim.",
+        "efficiency": "High price point and low volume would require significant upfront capital, contradicting the 'low capital' efficiency claim.",
+        "regulatory": "No named regulatory pathway (e.g., EU/US certification processes) or legal strategy to validate market entry.",
+        "differentiation": "Lacks concrete comparison to incumbents; 'analogue driving' is a vague trend without unique technical differentiation.",
+        "risk_mitigation": "Only addresses the 'unknown badge' risk; ignores critical risks like supply chain volatility, economic downturns, or fuel price sensitivity."
+      }
+    },
+    {
+      "panelist_id": "gemini-3-8-flash",
+      "scores": {
+        "evidence": 2,
+        "efficiency": 5,
+        "regulatory": 5,
+        "differentiation": 5,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "Mentions regulations (FAST Act, EU Small Series) but lacks specific precedents, market size numbers, or concrete examples of similar vehicles.",
+        "efficiency": "Leverages bought-in crate engines, low-volume production, and avoids mass-market costs, requiring minimal upfront capital.",
+        "regulatory": "Names currently available legal routes (FAST Act, EU Small Series) with plausible longevity, avoiding mass-market homologation.",
+        "differentiation": "Targets a distinct niche (collectors/enthusiasts) with a unique product (analogue petrol cars), creating value through exclusivity.",
+        "risk_mitigation": "Identifies regulatory closure as the largest risk but provides no concrete mitigation strategy (e.g., diversification, contingency plans)."
+      }
+    },
+    {
+      "panelist_id": "grok-4-7",
+      "scores": {
+        "evidence": 1,
+        "efficiency": 3,
+        "regulatory": 0,
+        "differentiation": 3,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "Mentions markets and powertrain but lacks named precedents, specific numbers, or checkable data on demand or infrastructure gaps.",
+        "efficiency": "Uses bought-in components and deposits, but lacks quantified capital requirements or detailed resource optimization mechanisms.",
+        "regulatory": "No named current legal pathway; only discusses potential regulatory risks without confirming existing exemptions or compliance routes.",
+        "differentiation": "Targets a niche with utility/repairability, but lacks evidence of market demand or competitive differentiation beyond generic attributes.",
+        "risk_mitigation": "Names risks but provides no concrete responses (e.g., OEM dependency solutions, regulatory contingency plans, or diversification strategies)."
+      }
+    },
+    {
+      "panelist_id": "kimi-k3",
+      "scores": {
+        "evidence": 2,
+        "efficiency": 4,
+        "regulatory": 0,
+        "differentiation": 4,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "Mentions manual market decline and T.50 sales but lacks specific, verifiable sources or mechanisms for how these data support the strategy.",
+        "efficiency": "Uses bought-in engines, customer deposits, and low-volume production to minimize capital needs.",
+        "regulatory": "No named legal pathway or regulatory strategy is provided; only the risk of homologation is mentioned.",
+        "differentiation": "Targets a niche (manual, driver-focused cars) with perceived premium value, but lacks explicit uniqueness compared to competitors.",
+        "risk_mitigation": "Only identifies regulation as a risk without proposing concrete mitigation steps (e.g., lobbying, compliance planning)."
+      }
+    },
+    {
+      "panelist_id": "glm-5-3",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific precedents, market data, or numerical examples provided (e.g., no named competitors, sales targets, or engine supplier contracts).",
+        "efficiency": "Lacks concrete details on capital requirements, build-to-order models, or deposit systems to demonstrate resource efficiency.",
+        "regulatory": "No named legal pathway (e.g., emissions compliance, import/export licenses) or timeline for petrol sales continuation.",
+        "differentiation": "Generic 'premium enthusiast' positioning without unique value propositions or differentiation from existing brands like Ferrari or Porsche.",
+        "risk_mitigation": "Identifies risks but provides no concrete responses (e.g., no plan to pivot to EVs, diversify engine suppliers, or secure regulatory exemptions)."
+      }
+    },
+    {
+      "panelist_id": "nemotron-3-5-super-vl",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific market data, precedents, or numerical evidence provided (e.g., no cited demand figures, existing analog car sales, or regulatory timelines).",
+        "efficiency": "No mention of capital requirements, build-to-order models, or component sourcing strategies to demonstrate resource efficiency.",
+        "regulatory": "No named legal pathway (e.g., emissions standards, fuel regulations) or timeline for market entry; only risk mentioned, not compliance strategy.",
+        "differentiation": "Lacks concrete comparison to competitors; 'emotional' and 'collectible' are vague, not actionable differentiation factors.",
+        "risk_mitigation": "Only identifies regulatory risk but provides no pivot strategy (e.g., electrification roadmap) or mitigation mechanisms (e.g., deposit models, secondary markets)."
+      }
+    },
+    {
+      "panelist_id": "ollama-qwen3-14b",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific precedents, market data, or numerical evidence cited (e.g., no named luxury carmakers, sales figures, or demand metrics for bespoke petrol cars).",
+        "efficiency": "No mention of cost-saving mechanisms like modular platforms, supplier partnerships, or build-to-order models; bespoke craftsmanship inherently requires high capital and labor.",
+        "regulatory": "No named legal pathway (e.g., emissions compliance, import/export regulations) or strategy to navigate 2026's tightening petrol-car regulations.",
+        "differentiation": "Lack of concrete uniqueness; luxury performance niches are already occupied by Ferrari, McLaren, etc., with no distinct value proposition beyond exclusivity.",
+        "risk_mitigation": "Risks (electric competition, sustainability pressure) are named but no concrete responses (e.g., pivot to hybrid, carbon offsetting, or price caps) are proposed."
+      }
+    },
+    {
+      "panelist_id": "ollama-qwen3-8b",
+      "scores": {
+        "evidence": 0,
+        "efficiency": 0,
+        "regulatory": 0,
+        "differentiation": 0,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence": "No specific market data, named precedents, or infrastructure metrics provided (e.g., EV charging station numbers, regional demand figures).",
+        "efficiency": "No details on capital requirements, component sourcing, or build-to-order models to demonstrate resource efficiency.",
+        "regulatory": "No named legal pathways or market entry strategies (e.g., local partnerships, certifications) to show regulatory viability.",
+        "differentiation": "Lacks unique value propositions; sports cars in niche regions are not clearly distinct from competitors or buyers' willingness to pay.",
+        "risk_mitigation": "Identifies timing risk but provides no concrete mitigation (e.g., pivot strategies, market diversification, or contingency plans)."
+      }
+    }
+  ],
+  "panel_sha256": "7c07414dd4123234c5499fcd3103cbfa395f7588febf0f1406e930d6c10d098a"
+}

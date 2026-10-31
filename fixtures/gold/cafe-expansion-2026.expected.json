@@ -1,0 +1,32 @@
+{
+  "panel_id": "cafe-expansion-2026",
+  "panel_sha256": "6755f3c89e486a1bed9eae9e2f7760bf6e2ff196d0c7bb3fc76678d67e27d18e",
+  "expected_recommended_strategy_label": "food-truck",
+  "expected_leading_strategy_label": "food-truck",
+  "expected_consensus": "plurality",
+  "expected_dissent_panelist_ids": [
+    "cafe-owner-a",
+    "cafe-owner-b",
+    "cafe-owner-c",
+    "cafe-owner-d",
+    "cafe-owner-e"
+  ],
+  "rationale": "The food-truck strategy leads on capital efficiency: a 35000 truck with build-to-order stock and deposits needs far less upfront capital than a second site, while wholesale depends on a few buyers. Its weakness is weather and event risk, partly answered by deposits and the home pitch fallback.",
+  "answer_kind_note": "summaries",
+  "human_judge": "panel-judge implementer reasoned expectation for the v1.0 gate (NOT an independent external human judge; see docs/EVAL-v1.0.md)",
+  "judged_date": "2026-10-30",
+  "amendments": [
+    {
+      "date": "2026-10-30",
+      "note": "Re-judged after the first gate run: the food-truck group has only two members whose target markets are disjoint (United Kingdom vs Australia). Under the A5 same-label rule, each member differs materially from the rest of its group, so BOTH are same-label dissent, not only the Australia member. Direction (food-truck / plurality) was already correct; only the dissent set is corrected. No judge code was changed to fit.",
+      "previous_expected_dissent_panelist_ids": [
+        "cafe-owner-a",
+        "cafe-owner-c",
+        "cafe-owner-d",
+        "cafe-owner-e"
+      ],
+      "previous_expected_recommended_strategy_label": "food-truck",
+      "previous_expected_consensus": "plurality"
+    }
+  ]
+}

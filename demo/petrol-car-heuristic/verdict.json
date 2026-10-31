@@ -1,0 +1,494 @@
+{
+  "panel_id": "petrol-car-panel-2026",
+  "question": "If someone launches a new car company in 2026 based only on petrol engines, what is the single best idea/strategy to make it succeed rather than go bankrupt? Give one concrete strategy, the niche/market, why it works, and the biggest risk.",
+  "verdict": {
+    "recommended_strategy_label": "boutique-sports",
+    "leading_strategy_label": "boutique-sports",
+    "recommended_strategy_summary": "Recommended strategy (boutique-sports, supported by 8 of 9 panelists: claude-sonnet-5-5, gpt-6-1-sol, gemini-3-8-flash, kimi-k3, glm-5-3, nemotron-3-5-super-vl, ollama-qwen3-14b, ollama-qwen3-8b): Position as the last honest driver's car: a few hundred lightweight, manual, naturally aspirated cars per year, powered by a bought-in Cosworth-type engine and funded in part by customer deposits, with output deliberately capped to preserve scarcity and pricing power. The evidence cited is the shrinking manual market, with manual models falling from 69 to between 24 and 43, and the Gordon Murray T.50 selling 100 cars in 48 hours at \u00a32.36 million, showing that a small, credible, driver-focused offer can command extreme prices. The biggest risk is regulation and homologation, which could close the niche before the business matures. Shared supporting elements across the group include the highest-scoring evidence, efficiency, regulatory, differentiation and risk points named in the per-panelist reasons.",
+    "consensus": "majority",
+    "overall_score": 3.4
+  },
+  "rubric": [
+    {
+      "criterion_id": "evidence_strength",
+      "score": 5,
+      "weight": 0.2,
+      "reason": "Best-supported version across the recommended strategy's panelists (claude-sonnet-5-5, gpt-6-1-sol, kimi-k3); see per-panelist reasons for the underlying scores."
+    },
+    {
+      "criterion_id": "capital_efficiency",
+      "score": 4,
+      "weight": 0.2,
+      "reason": "Best-supported version across the recommended strategy's panelists (gemini-3-8-flash); see per-panelist reasons for the underlying scores."
+    },
+    {
+      "criterion_id": "regulatory_runway",
+      "score": 2,
+      "weight": 0.2,
+      "reason": "Best-supported version across the recommended strategy's panelists (gemini-3-8-flash); see per-panelist reasons for the underlying scores."
+    },
+    {
+      "criterion_id": "differentiation",
+      "score": 3,
+      "weight": 0.2,
+      "reason": "Best-supported version across the recommended strategy's panelists (gpt-6-1-sol, kimi-k3, ollama-qwen3-14b); see per-panelist reasons for the underlying scores."
+    },
+    {
+      "criterion_id": "risk_mitigation",
+      "score": 3,
+      "weight": 0.2,
+      "reason": "Best-supported version across the recommended strategy's panelists (kimi-k3, nemotron-3-5-super-vl); see per-panelist reasons for the underlying scores."
+    }
+  ],
+  "checkpoints": [
+    {
+      "checkpoint_id": "evidence",
+      "strategy_label": "boutique-sports",
+      "scores": {
+        "evidence_strength": 5,
+        "differentiation": 3
+      },
+      "notes": "Is there real, specific support for this strategy, and is it actually distinct? Checkpoint scores for this strategy group are computed from the group's answers (or supplied per-panelist scores) before any verdict score, and are not derived from verdict scores."
+    },
+    {
+      "checkpoint_id": "evidence",
+      "strategy_label": "work-4x4",
+      "scores": {
+        "evidence_strength": 4,
+        "differentiation": 1
+      },
+      "notes": "Is there real, specific support for this strategy, and is it actually distinct? Checkpoint scores for this strategy group are computed from the group's answers (or supplied per-panelist scores) before any verdict score, and are not derived from verdict scores."
+    },
+    {
+      "checkpoint_id": "feasibility",
+      "strategy_label": "boutique-sports",
+      "scores": {
+        "capital_efficiency": 4,
+        "regulatory_runway": 2
+      },
+      "notes": "Can this actually be built, funded, and sold legally, and for how long? Checkpoint scores for this strategy group are computed from the group's answers (or supplied per-panelist scores) before any verdict score, and are not derived from verdict scores."
+    },
+    {
+      "checkpoint_id": "feasibility",
+      "strategy_label": "work-4x4",
+      "scores": {
+        "capital_efficiency": 3,
+        "regulatory_runway": 1
+      },
+      "notes": "Can this actually be built, funded, and sold legally, and for how long? Checkpoint scores for this strategy group are computed from the group's answers (or supplied per-panelist scores) before any verdict score, and are not derived from verdict scores."
+    },
+    {
+      "checkpoint_id": "risk",
+      "strategy_label": "boutique-sports",
+      "scores": {
+        "risk_mitigation": 3
+      },
+      "notes": "What are the biggest risks, are they named, and does the strategy answer them? Checkpoint scores for this strategy group are computed from the group's answers (or supplied per-panelist scores) before any verdict score, and are not derived from verdict scores. Named risks: The biggest risk is demand for an unknown badge: buyers may not pay premium prices without heritage, dealer support or proven resale value. | The strategy depends on those routes remaining open: the largest risk is regulatory closure, which could remove the legal path to market entirely. | The biggest risk is regulation and homologation, which could close the niche before the business matures. | Be the Morgan, not the Fisker: do not chase scale or a new mass-market brand, but build a premium, low-volume enthusiast marque using a bought-in certified engine, avoiding proprietary powertrain cost and risk. | The biggest risks are a regulatory cliff that ends petrol sales, and dependence on an external engine supplier. | The central risk is regulatory extinction: if petrol sales are banned or restricted, the concept has no pivot to electrification. | The main risks are electric performance cars matching or beating petrol on speed and refinement, and growing sustainability pressure making a petrol-only luxury proposition harder to justify. | The largest risk is timing: EU and US bans or restrictions expected by around 2035 could shrink the addressable market and close export routes before the company is established..",
+      "risk_register": [
+        {
+          "risk": "The biggest risk is demand for an unknown badge: buyers may not pay premium prices without heritage, dealer support or proven resale value.",
+          "named_by": [
+            "gpt-6-1-sol"
+          ],
+          "response_in_answers": null,
+          "fatal": false
+        },
+        {
+          "risk": "The strategy depends on those routes remaining open: the largest risk is regulatory closure, which could remove the legal path to market entirely.",
+          "named_by": [
+            "gemini-3-8-flash"
+          ],
+          "response_in_answers": null,
+          "fatal": false
+        },
+        {
+          "risk": "The biggest risk is regulation and homologation, which could close the niche before the business matures.",
+          "named_by": [
+            "kimi-k3"
+          ],
+          "response_in_answers": "Position as the last honest driver's car: a few hundred lightweight, manual, naturally aspirated cars per year, powered by a bought-in Cosworth-type engine and funded in part by customer deposits, with output deliberately capped to preserve scarcity and pricing power.",
+          "fatal": false
+        },
+        {
+          "risk": "Be the Morgan, not the Fisker: do not chase scale or a new mass-market brand, but build a premium, low-volume enthusiast marque using a bought-in certified engine, avoiding proprietary powertrain cost and risk.",
+          "named_by": [
+            "glm-5-3"
+          ],
+          "response_in_answers": null,
+          "fatal": false
+        },
+        {
+          "risk": "The biggest risks are a regulatory cliff that ends petrol sales, and dependence on an external engine supplier.",
+          "named_by": [
+            "glm-5-3"
+          ],
+          "response_in_answers": null,
+          "fatal": false
+        },
+        {
+          "risk": "The central risk is regulatory extinction: if petrol sales are banned or restricted, the concept has no pivot to electrification.",
+          "named_by": [
+            "nemotron-3-5-super-vl"
+          ],
+          "response_in_answers": "The central risk is regulatory extinction: if petrol sales are banned or restricted, the concept has no pivot to electrification.",
+          "fatal": false
+        },
+        {
+          "risk": "The main risks are electric performance cars matching or beating petrol on speed and refinement, and growing sustainability pressure making a petrol-only luxury proposition harder to justify.",
+          "named_by": [
+            "ollama-qwen3-14b"
+          ],
+          "response_in_answers": null,
+          "fatal": false
+        },
+        {
+          "risk": "The largest risk is timing: EU and US bans or restrictions expected by around 2035 could shrink the addressable market and close export routes before the company is established.",
+          "named_by": [
+            "ollama-qwen3-8b"
+          ],
+          "response_in_answers": null,
+          "fatal": false
+        }
+      ]
+    },
+    {
+      "checkpoint_id": "risk",
+      "strategy_label": "work-4x4",
+      "scores": {
+        "risk_mitigation": 1
+      },
+      "notes": "What are the biggest risks, are they named, and does the strategy answer them? Checkpoint scores for this strategy group are computed from the group's answers (or supplied per-panelist scores) before any verdict score, and are not derived from verdict scores. Named risks: Use a bought-in, certified powertrain rather than developing an engine, keep annual output to a few hundred units, and fund production with customer deposits to limit capital at risk. | The main risks are dependence on a donor OEM for engines and parts, and losing a low-volume or specialist exemption if regulations tighten..",
+      "risk_register": [
+        {
+          "risk": "Use a bought-in, certified powertrain rather than developing an engine, keep annual output to a few hundred units, and fund production with customer deposits to limit capital at risk.",
+          "named_by": [
+            "grok-4-7"
+          ],
+          "response_in_answers": "Dissent from the boutique-sports consensus: build deposit-funded, work-capable 4x4 vehicles for remote-duty buyers in the US interior and Australia, where range, towing, durability and sparse charging infrastructure still favour petrol.",
+          "fatal": false
+        },
+        {
+          "risk": "The main risks are dependence on a donor OEM for engines and parts, and losing a low-volume or specialist exemption if regulations tighten.",
+          "named_by": [
+            "grok-4-7"
+          ],
+          "response_in_answers": "Dissent from the boutique-sports consensus: build deposit-funded, work-capable 4x4 vehicles for remote-duty buyers in the US interior and Australia, where range, towing, durability and sparse charging infrastructure still favour petrol.",
+          "fatal": false
+        }
+      ]
+    }
+  ],
+  "checkpoint_disagreements": [],
+  "per_panelist": [
+    {
+      "panelist_id": "claude-sonnet-5-5",
+      "strategy_label": "boutique-sports",
+      "answer_kind": "summary",
+      "scores": {
+        "evidence_strength": 5,
+        "capital_efficiency": 2,
+        "regulatory_runway": 0,
+        "differentiation": 1,
+        "risk_mitigation": 1
+      },
+      "reasons": {
+        "evidence_strength": "Heuristic: 4 numeric tokens and 6 evidence words in the answer; specificity rewarded, truth of cited facts not checked.",
+        "capital_efficiency": "Heuristic: 3 matching feature mentions for capital_efficiency in the answer text.",
+        "regulatory_runway": "Heuristic: 0 matching feature mentions for regulatory_runway in the answer text.",
+        "differentiation": "Heuristic: 1 matching feature mentions for differentiation in the answer text.",
+        "risk_mitigation": "Heuristic: 1 matching feature mentions for risk_mitigation in the answer text."
+      },
+      "overall_score": 1.8,
+      "strengths": [
+        "evidence_strength"
+      ],
+      "weaknesses": [
+        "capital_efficiency",
+        "regulatory_runway",
+        "differentiation",
+        "risk_mitigation"
+      ]
+    },
+    {
+      "panelist_id": "gpt-6-1-sol",
+      "strategy_label": "boutique-sports",
+      "answer_kind": "summary",
+      "scores": {
+        "evidence_strength": 5,
+        "capital_efficiency": 3,
+        "regulatory_runway": 0,
+        "differentiation": 3,
+        "risk_mitigation": 1
+      },
+      "reasons": {
+        "evidence_strength": "Heuristic: 4 numeric tokens and 20 evidence words in the answer; specificity rewarded, truth of cited facts not checked.",
+        "capital_efficiency": "Heuristic: 4 matching feature mentions for capital_efficiency in the answer text.",
+        "regulatory_runway": "Heuristic: 0 matching feature mentions for regulatory_runway in the answer text.",
+        "differentiation": "Heuristic: 5 matching feature mentions for differentiation in the answer text.",
+        "risk_mitigation": "Heuristic: 1 matching feature mentions for risk_mitigation in the answer text."
+      },
+      "overall_score": 2.4,
+      "strengths": [
+        "evidence_strength"
+      ],
+      "weaknesses": [
+        "regulatory_runway",
+        "risk_mitigation"
+      ]
+    },
+    {
+      "panelist_id": "gemini-3-8-flash",
+      "strategy_label": "boutique-sports",
+      "answer_kind": "summary",
+      "scores": {
+        "evidence_strength": 4,
+        "capital_efficiency": 4,
+        "regulatory_runway": 2,
+        "differentiation": 2,
+        "risk_mitigation": 1
+      },
+      "reasons": {
+        "evidence_strength": "Heuristic: 2 numeric tokens and 13 evidence words in the answer; specificity rewarded, truth of cited facts not checked.",
+        "capital_efficiency": "Heuristic: 6 matching feature mentions for capital_efficiency in the answer text.",
+        "regulatory_runway": "Heuristic: 3 matching feature mentions for regulatory_runway in the answer text.",
+        "differentiation": "Heuristic: 2 matching feature mentions for differentiation in the answer text.",
+        "risk_mitigation": "Heuristic: 1 matching feature mentions for risk_mitigation in the answer text."
+      },
+      "overall_score": 2.6,
+      "strengths": [
+        "evidence_strength",
+        "capital_efficiency"
+      ],
+      "weaknesses": [
+        "regulatory_runway",
+        "differentiation",
+        "risk_mitigation"
+      ]
+    },
+    {
+      "panelist_id": "grok-4-7",
+      "strategy_label": "work-4x4",
+      "answer_kind": "summary",
+      "scores": {
+        "evidence_strength": 4,
+        "capital_efficiency": 3,
+        "regulatory_runway": 1,
+        "differentiation": 1,
+        "risk_mitigation": 1
+      },
+      "reasons": {
+        "evidence_strength": "Heuristic: 2 numeric tokens and 3 evidence words in the answer; specificity rewarded, truth of cited facts not checked.",
+        "capital_efficiency": "Heuristic: 5 matching feature mentions for capital_efficiency in the answer text.",
+        "regulatory_runway": "Heuristic: 1 matching feature mentions for regulatory_runway in the answer text.",
+        "differentiation": "Heuristic: 1 matching feature mentions for differentiation in the answer text.",
+        "risk_mitigation": "Heuristic: 1 matching feature mentions for risk_mitigation in the answer text."
+      },
+      "overall_score": 2.0,
+      "strengths": [
+        "evidence_strength"
+      ],
+      "weaknesses": [
+        "regulatory_runway",
+        "differentiation",
+        "risk_mitigation"
+      ]
+    },
+    {
+      "panelist_id": "kimi-k3",
+      "strategy_label": "boutique-sports",
+      "answer_kind": "summary",
+      "scores": {
+        "evidence_strength": 5,
+        "capital_efficiency": 3,
+        "regulatory_runway": 1,
+        "differentiation": 3,
+        "risk_mitigation": 3
+      },
+      "reasons": {
+        "evidence_strength": "Heuristic: 7 numeric tokens and 19 evidence words in the answer; specificity rewarded, truth of cited facts not checked.",
+        "capital_efficiency": "Heuristic: 4 matching feature mentions for capital_efficiency in the answer text.",
+        "regulatory_runway": "Heuristic: 1 matching feature mentions for regulatory_runway in the answer text.",
+        "differentiation": "Heuristic: 5 matching feature mentions for differentiation in the answer text.",
+        "risk_mitigation": "Heuristic: 1 matching feature mentions for risk_mitigation in the answer text."
+      },
+      "overall_score": 3.0,
+      "strengths": [
+        "evidence_strength"
+      ],
+      "weaknesses": [
+        "regulatory_runway"
+      ]
+    },
+    {
+      "panelist_id": "glm-5-3",
+      "strategy_label": "boutique-sports",
+      "answer_kind": "summary",
+      "scores": {
+        "evidence_strength": 1,
+        "capital_efficiency": 2,
+        "regulatory_runway": 0,
+        "differentiation": 2,
+        "risk_mitigation": 1
+      },
+      "reasons": {
+        "evidence_strength": "Heuristic: 0 numeric tokens and 1 evidence words in the answer; specificity rewarded, truth of cited facts not checked.",
+        "capital_efficiency": "Heuristic: 3 matching feature mentions for capital_efficiency in the answer text.",
+        "regulatory_runway": "Heuristic: 0 matching feature mentions for regulatory_runway in the answer text.",
+        "differentiation": "Heuristic: 3 matching feature mentions for differentiation in the answer text.",
+        "risk_mitigation": "Heuristic: 1 matching feature mentions for risk_mitigation in the answer text."
+      },
+      "overall_score": 1.2,
+      "strengths": [],
+      "weaknesses": [
+        "evidence_strength",
+        "capital_efficiency",
+        "regulatory_runway",
+        "differentiation",
+        "risk_mitigation"
+      ]
+    },
+    {
+      "panelist_id": "nemotron-3-5-super-vl",
+      "strategy_label": "boutique-sports",
+      "answer_kind": "summary",
+      "scores": {
+        "evidence_strength": 1,
+        "capital_efficiency": 0,
+        "regulatory_runway": 0,
+        "differentiation": 2,
+        "risk_mitigation": 3
+      },
+      "reasons": {
+        "evidence_strength": "Heuristic: 0 numeric tokens and 2 evidence words in the answer; specificity rewarded, truth of cited facts not checked.",
+        "capital_efficiency": "Heuristic: 0 matching feature mentions for capital_efficiency in the answer text.",
+        "regulatory_runway": "Heuristic: 0 matching feature mentions for regulatory_runway in the answer text.",
+        "differentiation": "Heuristic: 3 matching feature mentions for differentiation in the answer text.",
+        "risk_mitigation": "Heuristic: 2 matching feature mentions for risk_mitigation in the answer text."
+      },
+      "overall_score": 1.2,
+      "strengths": [],
+      "weaknesses": [
+        "evidence_strength",
+        "capital_efficiency",
+        "regulatory_runway",
+        "differentiation"
+      ]
+    },
+    {
+      "panelist_id": "ollama-qwen3-14b",
+      "strategy_label": "boutique-sports",
+      "answer_kind": "summary",
+      "scores": {
+        "evidence_strength": 1,
+        "capital_efficiency": 0,
+        "regulatory_runway": 0,
+        "differentiation": 3,
+        "risk_mitigation": 0
+      },
+      "reasons": {
+        "evidence_strength": "Heuristic: 0 numeric tokens and 1 evidence words in the answer; specificity rewarded, truth of cited facts not checked.",
+        "capital_efficiency": "Heuristic: 0 matching feature mentions for capital_efficiency in the answer text.",
+        "regulatory_runway": "Heuristic: 0 matching feature mentions for regulatory_runway in the answer text.",
+        "differentiation": "Heuristic: 5 matching feature mentions for differentiation in the answer text.",
+        "risk_mitigation": "Heuristic: 0 matching feature mentions for risk_mitigation in the answer text."
+      },
+      "overall_score": 0.8,
+      "strengths": [],
+      "weaknesses": [
+        "evidence_strength",
+        "capital_efficiency",
+        "regulatory_runway",
+        "risk_mitigation"
+      ]
+    },
+    {
+      "panelist_id": "ollama-qwen3-8b",
+      "strategy_label": "boutique-sports",
+      "answer_kind": "summary",
+      "scores": {
+        "evidence_strength": 3,
+        "capital_efficiency": 1,
+        "regulatory_runway": 0,
+        "differentiation": 1,
+        "risk_mitigation": 1
+      },
+      "reasons": {
+        "evidence_strength": "Heuristic: 1 numeric tokens and 4 evidence words in the answer; specificity rewarded, truth of cited facts not checked.",
+        "capital_efficiency": "Heuristic: 1 matching feature mentions for capital_efficiency in the answer text.",
+        "regulatory_runway": "Heuristic: 0 matching feature mentions for regulatory_runway in the answer text.",
+        "differentiation": "Heuristic: 1 matching feature mentions for differentiation in the answer text.",
+        "risk_mitigation": "Heuristic: 1 matching feature mentions for risk_mitigation in the answer text."
+      },
+      "overall_score": 1.2,
+      "strengths": [],
+      "weaknesses": [
+        "capital_efficiency",
+        "regulatory_runway",
+        "differentiation",
+        "risk_mitigation"
+      ]
+    }
+  ],
+  "dissent": [
+    {
+      "panelist_id": "grok-4-7",
+      "strategy_label": "work-4x4",
+      "summary": "Dissent from the boutique-sports consensus: build deposit-funded, work-capable 4x4 vehicles for remote-duty buyers in the US interior and Australia, where range, towing, durability and sparse charging infrastructure still favour petrol. Use a bought-in, certified powertrain rather than developing an engine, keep annual output to a few hundred units, and fund production with customer deposits to limit capital at risk. Sell utility and repairability, not heritage or track performance. The main risks are dependence on a donor OEM for engines and parts, and losing a low-volume or specialist exemption if regulations tighten.",
+      "material_difference_basis": "different strategy_label (work-4x4 vs boutique-sports)",
+      "verdict_response": "partially adopted as fallback: this is the second-ranked strategy (overall 2.0 vs 3.4 for the recommendation). It is kept as a fallback if the recommended strategy's demand proof fails, but its niche is not recommended: it scores lower on regulatory_runway (1 vs 2 for the recommendation)."
+    }
+  ],
+  "disclaimer": "Scores rate the answers against the stated criteria. They are not a guarantee of success, market outcome, or regulatory outcome.",
+  "state": {
+    "panel_sha256": "0b1b89e24f4329d6b4b21ce49444cfc47f636c54294e8a99bb2f20606c10401d",
+    "panel_file": "fixtures/petrol-car-panel.json",
+    "rubric_version": "default-v1",
+    "rubric_file": null,
+    "assessments_sha256": null,
+    "assessments_file": null,
+    "assessor": null,
+    "assessor_panelist_id": null,
+    "judging_route": "heuristic",
+    "judge_model": null,
+    "ollama_endpoint": null,
+    "prompt_version": null,
+    "max_panel_chars": 250000,
+    "max_answer_chars": 50000,
+    "max_assessments_chars": 250000,
+    "input_budget_chars": 250000,
+    "panel_chars": 7612,
+    "panel_chars_after_truncation": null,
+    "assessments_chars": null,
+    "truncated": false,
+    "truncated_panelist_ids": [],
+    "created": "2026-10-30T04:29:47.234983Z",
+    "tool_version": "panel-judge 1.0.0",
+    "self_judging": false,
+    "assessor_model": null,
+    "assessor_provider": null,
+    "prompt_sha256": null,
+    "temperature": null,
+    "usage": null,
+    "heuristic_mapping_version": "heuristic-mapping-v1",
+    "alias_table_version": null,
+    "rubric_criteria": [
+      "evidence_strength",
+      "capital_efficiency",
+      "regulatory_runway",
+      "differentiation",
+      "risk_mitigation"
+    ],
+    "checkpoint_mapping": {
+      "evidence_strength": "evidence",
+      "differentiation": "evidence",
+      "capital_efficiency": "feasibility",
+      "regulatory_runway": "feasibility",
+      "risk_mitigation": "risk"
+    },
+    "verification_sha256": null,
+    "verification_file": null,
+    "verification_outcome": "not-run",
+    "sign_off": null
+  },
+  "verification": null
+}

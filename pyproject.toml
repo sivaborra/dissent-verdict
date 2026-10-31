@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panel-judge"
+version = "1.1.0"
+description = "Generic, file-based AI-panel judge: panels in, verdict + report out."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[project.scripts]
+panel-judge = "panel_judge.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["panel_judge*"]

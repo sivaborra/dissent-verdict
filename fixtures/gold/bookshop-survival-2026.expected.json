@@ -1,0 +1,16 @@
+{
+  "panel_id": "bookshop-survival-2026",
+  "panel_sha256": "23a45e8d28bfc44fa6d0cd44e7e456f8e1fb36ed3a8ffa200bf0c9e6f48e6597",
+  "expected_recommended_strategy_label": "cafe-bookshop",
+  "expected_leading_strategy_label": "cafe-bookshop",
+  "expected_consensus": "majority",
+  "expected_dissent_panelist_ids": [
+    "bookseller-a",
+    "bookseller-b"
+  ],
+  "rationale": "The cafe-bookshop leads on differentiation: a place people pay to spend time in cannot be copied by an online rival, and cafe revenue covers rent that book sales alone no longer cover. Its weakness is staffing and distraction from bookselling, partly answered by capped hours and keeping staff picks prominent.",
+  "answer_kind_note": "mixed summary and full",
+  "human_judge": "panel-judge implementer reasoned expectation for the v1.0 gate (NOT an independent external human judge; see docs/EVAL-v1.0.md)",
+  "judged_date": "2026-10-30",
+  "amendments": []
+}

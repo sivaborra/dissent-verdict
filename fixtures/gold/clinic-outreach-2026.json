@@ -1,0 +1,27 @@
+{
+  "panel_id": "clinic-outreach-2026",
+  "question": "A community clinic wants to reach patients who miss appointments: what is the best option, a mobile clinic, telehealth hours, or community health workers?",
+  "panelists": [
+    {
+      "id": "clinic-nurse-a",
+      "model": "Mobile-clinic advocate",
+      "source": "human",
+      "answer": "Run a mobile clinic van two days a week to the neighbourhoods with the highest missed-appointment rates. The van costs 80000 to equip and needs a driver and a nurse per trip, but it meets patients where they live and has precedent: a neighbouring clinic reports 40 percent fewer missed appointments after six months of van visits. The biggest risk is staffing the van on days the clinic is already short, answered by capping van days at two per week.",
+      "strategy_label": "mobile-clinic"
+    },
+    {
+      "id": "clinic-nurse-b",
+      "model": "Telehealth advocate",
+      "source": "human",
+      "answer": "Offer telehealth hours four evenings a week so patients can attend from home without travel or waiting rooms. The platform costs little and one clinician can cover many calls, but some patients lack reliable internet or a private room, and the clinic has no named coverage route for patients whose conditions need hands-on examination. The biggest risk is that the patients who miss most are exactly those least able to use video calls, with no fallback visit offered.",
+      "strategy_label": "telehealth"
+    },
+    {
+      "id": "clinic-nurse-c",
+      "model": "Health-worker advocate",
+      "source": "human",
+      "answer": "Employ community health workers who visit patients at home, remind them of appointments, and help with transport and paperwork. Workers are recruited from the same neighbourhoods, which builds trust, but recruitment and training take months, each worker covers only 30 patients, and the clinic has no precedent numbers for how many missed appointments this actually prevents. The biggest risk is slow scale-up, with no quick fallback if recruitment stalls.",
+      "strategy_label": "health-workers"
+    }
+  ]
+}

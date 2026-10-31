@@ -1,0 +1,16 @@
+{
+  "panel_id": "community-solar-2026",
+  "panel_sha256": "36deace88e22e5fd749e6c0935006f18c35336f9a1af0a734207b2ff0f81a859",
+  "expected_recommended_strategy_label": "rooftop-coop",
+  "expected_leading_strategy_label": "rooftop-coop",
+  "expected_consensus": "plurality",
+  "expected_dissent_panelist_ids": [
+    "resident-c",
+    "resident-d"
+  ],
+  "rationale": "The rooftop co-op leads on evidence and regulatory runway: a named community-energy route with a nearby co-op's reported savings (12000 across 30 homes) beats a subscription with no stated output and a bulk scheme with no shared asset. Its weakness is roof-repair interruption, answered by a maintenance reserve.",
+  "answer_kind_note": "mixed summary and full",
+  "human_judge": "panel-judge implementer reasoned expectation for the v1.0 gate (NOT an independent external human judge; see docs/EVAL-v1.0.md)",
+  "judged_date": "2026-10-30",
+  "amendments": []
+}

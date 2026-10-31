@@ -1,0 +1,34 @@
+{
+  "panel_id": "community-solar-2026",
+  "question": "A residents' association wants shared solar: what is the best option, a rooftop co-op, a subscription garden, or a bulk-purchase scheme?",
+  "panelists": [
+    {
+      "id": "resident-a",
+      "model": "Rooftop co-op advocate",
+      "source": "human",
+      "answer": "Form a rooftop co-op: 40 households put panels on the association's roofs under a named community-energy legal route, sharing the electricity and the savings. A nearby co-op reports 12000 in annual savings across 30 homes and a payback period of 8 years, and the route is currently open with a multi-year life. The biggest risk is roof repairs interrupting generation, answered by a maintenance reserve funded from the first year's savings.",
+      "strategy_label": "rooftop-coop"
+    },
+    {
+      "id": "resident-b",
+      "model": "Rooftop co-op second advocate",
+      "source": "human",
+      "answer": "Build the same rooftop co-op in two stages: 20 roofs first, then the remaining 20 once the first stage proves its savings. Staging caps the upfront cost and lets the association learn before committing fully, but it delays the full saving by a year. The biggest risk is the legal route closing between stages, answered by securing the route for both stages in the first agreement.",
+      "strategy_label": "rooftop-coop"
+    },
+    {
+      "id": "resident-c",
+      "model": "Subscription-garden advocate",
+      "source": "human",
+      "answer": "Offer a subscription garden: residents pay a monthly fee for a share of a solar farm elsewhere, with no roof work and no upfront cost. The farm operator handles maintenance, and subscribers can leave with one month's notice, but the association owns nothing, the fee can rise, and the garden's output per subscriber is never stated in numbers. The biggest risk is fee rises eroding the saving, with no owned asset as a fallback.",
+      "strategy_label": "subscription-garden"
+    },
+    {
+      "id": "resident-d",
+      "model": "Bulk-purchase advocate",
+      "source": "human",
+      "answer": "Run a bulk-purchase scheme: negotiate a group discount of 15 percent for households buying their own panels, using the association's bargaining power. Households keep their own systems and savings, and the discount is concrete, but each household still pays upfront, renters cannot join, and there is no shared legal route or fallback if an installer fails. The biggest risk is installer failure, with no collective response beyond individual warranties.",
+      "answer_kind": "full"
+    }
+  ]
+}

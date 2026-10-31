@@ -1,0 +1,269 @@
+{
+  "assessor": "anthropic/claude-sonnet-4.5",
+  "assessor_role": "judge-model",
+  "assessor_model": "anthropic/claude-sonnet-4.5",
+  "assessor_provider": "openrouter",
+  "prompt_version": "openrouter-judge-v1",
+  "prompt_sha256": "8831138b58e2f036a2f018c01698a4cd71326a6921947fd1be8d6ae8b8fab735",
+  "temperature": 0,
+  "usage": {
+    "prompt_tokens": 2202,
+    "completion_tokens": 4068,
+    "total_tokens": 6270,
+    "cost_amount": 0.067626,
+    "cost_currency": "USD",
+    "pricing_source": "provider-response"
+  },
+  "assessments": [
+    {
+      "panelist_id": "claude-sonnet-5-5",
+      "scores": {
+        "evidence_strength": 3,
+        "capital_efficiency": 4,
+        "regulatory_runway": 2,
+        "differentiation": 3,
+        "risk_mitigation": 2
+      },
+      "reasons": {
+        "evidence_strength": "Provides specific survival probability estimates (1-3% mass-market vs 20-35% boutique) and names target markets (US, Middle East), but does not cite sources or precedents for these numbers.",
+        "capital_efficiency": "Explicitly advocates low-volume, high-margin model with hybrid-ready platform using bought-in components, avoiding mass-market scale economics. Clear capital-light approach.",
+        "regulatory_runway": "Mentions US and Middle East markets but does not name specific regulatory frameworks or exemptions that would enable market entry, nor timeline for when routes might close.",
+        "differentiation": "Proposes boutique sports car focused on driving character and sound, distinct from mass-market EVs, though does not detail what makes it different from existing boutique makers like Morgan or Lotus.",
+        "risk_mitigation": "Names survival odds as the key risk metric but does not identify specific risks (regulatory, demand, supplier) or concrete responses beyond 'keep volumes small' and 'hybrid-ready platform'."
+      },
+      "strengths": [
+        "Quantifies survival probability difference between strategies",
+        "Clear capital-efficient model with low volumes and high margins",
+        "Hybrid-ready platform provides some future flexibility"
+      ],
+      "weaknesses": [
+        "No named regulatory pathways or exemptions",
+        "Survival probability numbers lack cited sources",
+        "Limited concrete risk mitigation beyond general discipline"
+      ]
+    },
+    {
+      "panelist_id": "gpt-6-1-sol",
+      "scores": {
+        "evidence_strength": 4,
+        "capital_efficiency": 5,
+        "regulatory_runway": 2,
+        "differentiation": 4,
+        "risk_mitigation": 4
+      },
+      "reasons": {
+        "evidence_strength": "Provides specific price range (\u20ac120,000-\u20ac180,000), volume (100-200 cars/year), and concrete mechanism (bought-in certified engine, build-to-order). Lacks cited precedents but details are checkable.",
+        "capital_efficiency": "Exceptional capital efficiency: build-to-order eliminates inventory risk, bought-in engine avoids development costs, direct sales cuts dealer margins, 100-200 unit volume minimizes tooling. Every element reduces capital needs.",
+        "regulatory_runway": "Mentions using 'already-certified engine' which implies regulatory compliance, but does not name specific low-volume exemptions or frameworks that enable this approach.",
+        "differentiation": "Lightweight, manual, driver-focused roadster is distinct from mass-market EVs and positions against electrification trend. Build-to-order model itself is differentiating. Clear niche definition.",
+        "risk_mitigation": "Explicitly names 'demand for unknown badge' as biggest risk and acknowledges buyers may not pay premium without heritage, dealer support, or resale value. Build-to-order model directly mitigates cash flow risk."
+      },
+      "strengths": [
+        "Highly detailed capital-efficient model with specific numbers",
+        "Build-to-order directly addresses cash flow and inventory risks",
+        "Clear differentiation through scarcity and analogue focus",
+        "Names and acknowledges demand risk explicitly"
+      ],
+      "weaknesses": [
+        "No named regulatory frameworks or exemptions",
+        "Does not provide concrete response to demand/badge risk beyond build-to-order discipline"
+      ]
+    },
+    {
+      "panelist_id": "gemini-3-8-flash",
+      "scores": {
+        "evidence_strength": 5,
+        "capital_efficiency": 4,
+        "regulatory_runway": 5,
+        "differentiation": 4,
+        "risk_mitigation": 4
+      },
+      "reasons": {
+        "evidence_strength": "Names specific regulatory frameworks: US FAST Act provisions and EU Small Series framework. Provides price range ($150,000-$250,000+), bought-in crate engine, and collector/enthusiast target. All claims are specific and checkable.",
+        "capital_efficiency": "Low-volume production, bought-in crate engine (no proprietary development), avoids mass production tooling. Clear capital-light approach though slightly less detailed than gpt-6-1-sol on order/payment model.",
+        "regulatory_runway": "Exceptional: explicitly names US FAST Act and EU Small Series as the legal pathways, demonstrating knowledge of specific low-volume routes currently available. Acknowledges these must remain open.",
+        "differentiation": "Purist, analogue sports car for collectors wanting petrol before it disappears. Scarcity and timing (last chance) create differentiation. Distinct positioning though similar to other boutique answers.",
+        "risk_mitigation": "Explicitly names 'regulatory closure' as largest risk and states it 'could remove the legal path to market entirely.' Risk is clearly identified though no concrete pivot or response is offered beyond the initial regulatory route selection."
+      },
+      "strengths": [
+        "Only answer to name specific regulatory frameworks (FAST Act, EU Small Series)",
+        "Checkable evidence on regulations, pricing, and approach",
+        "Clear identification of regulatory risk as existential",
+        "Capital-efficient through bought-in components and low volume"
+      ],
+      "weaknesses": [
+        "No concrete response or pivot if regulatory routes close",
+        "Does not detail how to build brand value without heritage"
+      ]
+    },
+    {
+      "panelist_id": "grok-4-7",
+      "scores": {
+        "evidence_strength": 3,
+        "capital_efficiency": 4,
+        "regulatory_runway": 2,
+        "differentiation": 5,
+        "risk_mitigation": 3
+      },
+      "reasons": {
+        "evidence_strength": "Names specific markets (US interior, Australia), use case (remote duty, towing), and mechanism (deposit-funded, bought-in powertrain). Does not provide volume numbers or price points, and 'sparse charging infrastructure' is asserted without data.",
+        "capital_efficiency": "Deposit-funded production limits capital at risk, bought-in certified powertrain avoids development costs, few hundred units keeps tooling minimal. Strong capital efficiency model.",
+        "regulatory_runway": "Mentions 'low-volume or specialist exemption' but does not name specific frameworks or jurisdictions. Acknowledges risk of losing exemption but does not detail current availability.",
+        "differentiation": "Exceptional: only answer proposing work/utility vehicles instead of sports cars. Completely different buyer (remote workers vs enthusiasts), value proposition (utility vs emotion), and competitive set. Genuine strategic dissent.",
+        "risk_mitigation": "Names two specific risks: dependence on donor OEM for engines/parts, and losing low-volume exemption. However, provides no concrete response to either risk beyond acknowledging them."
+      },
+      "strengths": [
+        "Unique differentiation: work vehicles vs sports cars",
+        "Deposit-funded model protects capital",
+        "Identifies underserved market with genuine petrol advantage (range, towing, infrastructure gaps)",
+        "Names specific risks clearly"
+      ],
+      "weaknesses": [
+        "No named regulatory frameworks despite mentioning exemptions",
+        "No concrete mitigation for supplier dependence or regulatory risk",
+        "Infrastructure claims not supported with data"
+      ]
+    },
+    {
+      "panelist_id": "kimi-k3",
+      "scores": {
+        "evidence_strength": 5,
+        "capital_efficiency": 4,
+        "regulatory_runway": 2,
+        "differentiation": 4,
+        "risk_mitigation": 2
+      },
+      "reasons": {
+        "evidence_strength": "Exceptional evidence: cites manual market shrinkage (69 to 24-43 models), Gordon Murray T.50 selling 100 cars in 48 hours at \u00a32.36 million, Cosworth-type engine as specific supplier example. All checkable precedents supporting the strategy.",
+        "capital_efficiency": "Customer deposits fund production, bought-in engine (Cosworth-type), deliberately capped output preserves pricing power, few hundred units per year. Strong capital-light model.",
+        "regulatory_runway": "Mentions 'regulation and homologation' as biggest risk but does not name specific low-volume frameworks or exemptions that would enable market entry.",
+        "differentiation": "Last honest driver's car with manual, naturally aspirated, lightweight focus. Gordon Murray T.50 precedent shows market exists. Clear emotional differentiation though similar to other boutique answers.",
+        "risk_mitigation": "Names 'regulation and homologation' as biggest risk that 'could close the niche before the business matures' but provides no concrete response, pivot, or mitigation strategy."
+      },
+      "strengths": [
+        "Best evidence among all answers: specific precedent (T.50), market data (manual decline), named supplier type",
+        "Deposit funding and capped output protect capital and pricing",
+        "Clear proof of concept through T.50 example"
+      ],
+      "weaknesses": [
+        "No named regulatory pathways despite identifying regulation as key risk",
+        "No concrete mitigation for regulatory risk",
+        "Does not explain how new entrant captures T.50-level pricing without Murray's reputation"
+      ]
+    },
+    {
+      "panelist_id": "glm-5-3",
+      "scores": {
+        "evidence_strength": 4,
+        "capital_efficiency": 4,
+        "regulatory_runway": 2,
+        "differentiation": 3,
+        "risk_mitigation": 3
+      },
+      "reasons": {
+        "evidence_strength": "Names Morgan as specific precedent, identifies multiple target markets (US, Middle East, Japan, Europe), bought-in certified engine, and recurring revenue model through servicing/parts. Checkable claims though less quantified than kimi-k3.",
+        "capital_efficiency": "Bought-in certified engine avoids development costs, low-volume premium model, recurring revenue from service/parts reduces dependence on unit sales. Strong capital efficiency.",
+        "regulatory_runway": "Does not name specific regulatory frameworks or exemptions. Mentions 'regulatory cliff' as risk but does not detail current pathways.",
+        "differentiation": "Premium enthusiast marque with craftsmanship focus, distinct from mass-market. Morgan precedent is apt. However, does not clearly differentiate from other boutique makers beyond 'character and exclusivity.'",
+        "risk_mitigation": "Names two specific risks: regulatory cliff ending petrol sales, and dependence on external engine supplier. Recurring revenue model partially mitigates business risk but no concrete response to regulatory or supplier risks."
+      },
+      "strengths": [
+        "Morgan precedent is directly relevant and named",
+        "Recurring revenue model adds business resilience",
+        "Multiple target markets reduce geographic concentration",
+        "Names both regulatory and supplier risks"
+      ],
+      "weaknesses": [
+        "No named regulatory frameworks enabling entry",
+        "No concrete mitigation for regulatory cliff or supplier dependence",
+        "Differentiation from other boutique makers unclear"
+      ]
+    },
+    {
+      "panelist_id": "nemotron-3-5-super-vl",
+      "scores": {
+        "evidence_strength": 3,
+        "capital_efficiency": 3,
+        "regulatory_runway": 3,
+        "differentiation": 4,
+        "risk_mitigation": 2
+      },
+      "reasons": {
+        "evidence_strength": "Names target markets (US, Middle East, Australia) with reasoning about regulation being 'less immediately prohibitive than parts of Europe.' Describes product (lightweight, RWD, NA, manual) but lacks specific numbers, precedents, or volume targets.",
+        "capital_efficiency": "Implies low-volume through 'narrow, emotional, collectible' positioning but does not specify production model, funding mechanism, or component sourcing strategy. Capital efficiency is suggested but not detailed.",
+        "regulatory_runway": "Identifies markets where 'regulation is less immediately prohibitive' and acknowledges geographic variation in petrol restrictions. More nuanced than some answers but does not name specific frameworks or exemptions.",
+        "differentiation": "Strong differentiation: 'The Last Pure Petrol Car' with minimal driver aids, uncompromised analogue experience. Emotional positioning as final opportunity creates urgency. Clear and distinct value proposition.",
+        "risk_mitigation": "Names 'regulatory extinction' as central risk and states 'if petrol sales are banned or restricted, the concept has no pivot to electrification.' Risk is clearly identified but explicitly states no mitigation or pivot exists."
+      },
+      "strengths": [
+        "Strong emotional differentiation through 'last pure petrol car' positioning",
+        "Geographic regulatory analysis shows strategic thinking",
+        "Honest about lack of pivot if regulations close"
+      ],
+      "weaknesses": [
+        "No specific capital efficiency mechanisms detailed",
+        "No named regulatory frameworks or exemptions",
+        "Explicitly states no mitigation for regulatory risk",
+        "Lacks quantified evidence or precedents"
+      ]
+    },
+    {
+      "panelist_id": "ollama-qwen3-14b",
+      "scores": {
+        "evidence_strength": 2,
+        "capital_efficiency": 3,
+        "regulatory_runway": 1,
+        "differentiation": 3,
+        "risk_mitigation": 2
+      },
+      "reasons": {
+        "evidence_strength": "Describes luxury performance niche with bespoke design and personalization but provides no specific numbers, precedents, markets, or mechanisms. Claims are plausible but entirely unsupported.",
+        "capital_efficiency": "Implies capital efficiency through 'low production, high margins' but does not specify sourcing strategy, funding model, or volume targets. Less detailed than other boutique answers.",
+        "regulatory_runway": "Does not mention regulatory frameworks, exemptions, or pathways at all. No discussion of how a new petrol maker reaches market legally.",
+        "differentiation": "Luxury performance with bespoke design and heritage-style exclusivity differentiates from mass-market but is generic within luxury segment. Does not explain advantage over established luxury makers.",
+        "risk_mitigation": "Names two risks: electric cars matching petrol on speed/refinement, and sustainability pressure. However, provides no concrete response to either risk beyond the initial positioning."
+      },
+      "strengths": [
+        "Recognizes need to compete on emotion rather than practicality",
+        "Identifies relevant risks (EV performance, sustainability pressure)",
+        "High-margin model appropriate for capital constraints"
+      ],
+      "weaknesses": [
+        "No specific evidence, numbers, or precedents",
+        "No regulatory pathway discussed",
+        "No concrete risk mitigation strategies",
+        "Generic differentiation within luxury segment"
+      ]
+    },
+    {
+      "panelist_id": "ollama-qwen3-8b",
+      "scores": {
+        "evidence_strength": 2,
+        "capital_efficiency": 2,
+        "regulatory_runway": 2,
+        "differentiation": 2,
+        "risk_mitigation": 2
+      },
+      "reasons": {
+        "evidence_strength": "Names target regions (Middle East, Asia) and reasoning (weak EV infrastructure) but provides no specific data on infrastructure gaps, no volume targets, no precedents. Claims are plausible but unsupported.",
+        "capital_efficiency": "Mentions 'low volumes' and 'simple enough to support remotely' but does not specify production model, component sourcing, funding mechanism, or capital requirements. Implied but not detailed.",
+        "regulatory_runway": "Mentions 'EU and US bans or restrictions expected by around 2035' showing awareness of timeline, but does not name current frameworks enabling entry or explain how to reach market before bans.",
+        "differentiation": "Lightweight performance sports car for infrastructure-weak regions is somewhat distinct, but does not explain why this car is better than existing petrol sports cars in those markets or how it competes with local preferences.",
+        "risk_mitigation": "Names timing risk (2035 bans) that 'could shrink addressable market and close export routes before company is established' but provides no concrete response or mitigation strategy."
+      },
+      "strengths": [
+        "Geographic focus on infrastructure gaps is strategically sound",
+        "Acknowledges regulatory timeline (2035)",
+        "Identifies timing as critical risk"
+      ],
+      "weaknesses": [
+        "No specific evidence on infrastructure gaps or market size",
+        "No detailed capital efficiency mechanisms",
+        "No named regulatory pathways for market entry",
+        "No concrete mitigation for timing risk",
+        "Weak differentiation from existing sports cars in target markets"
+      ]
+    }
+  ],
+  "panel_sha256": "7c07414dd4123234c5499fcd3103cbfa395f7588febf0f1406e930d6c10d098a"
+}
